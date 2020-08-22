@@ -1,21 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link
-      rel="shortcut icon"
-      sizes="16x16 32x32 64x64"
-      href="https://nomadcoders.co/m.png"
-    />
     <title>kokoa-talk</title>
     <meta charset="utf-8" />
     <meta name="description" content="This is my first website." />
+    <link href="styles.css" rel="stylesheet" />
+    <style>
+      * {
+        border: solid 2px black;
+      }
+      html {
+        margin: 0px;
+        background-color: teal;
+      }
+      body {
+        margin: 20px;
+        padding: 20px;
+        background-color: thistle;
+      }
+      div {
+        padding: 20px;
+        border: solid 2px black;
+      }
+      #first {
+        width: 150px;
+        height: 150px;
+        background-color: whitesmoke;
+      }
+      #second {
+        width: 100px;
+        height: 100px;
+        background-color: orange;
+      }
+      #third {
+        width: 50px;
+        height: 50px;
+        background-color: yellow;
+      }
+    </style>
   </head>
   <body>
-    <form>
-        <label  for="Email">email</label>
-        <input id="Email" required placeholder="Email" type="date"/>
-        <input type="submit" value =" Create Account"/>
-    </form> 
-    </audio>
+    <div id="first">
+      <div id="second">
+        <div id="third">
+          <span>hello</span>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
