@@ -6,25 +6,25 @@
     <meta name="description" content="This is my first website." />
     <link href="styles.css" rel="stylesheet" />
     <style>
+      :root{
+       --main-color: #4686ef;
+       --default-border:1px solid var(--main-color);
+      }
       body {
         height: 1000vh;
         margin: 50px;
       }
-      form{
-        border: 1px solid salmon;
-        display:flex;
-        flex-direction: column;
-        padding:20px;
+      p{
+        color: var(--main-color);
       }
-      form:hover input:focus{
-        background-color: sienna;
+      div{
+        border:var(--default-border);
       }
       </style>
   </head>
   <body>
     <form>
-      <input  type="text" name="" id="">
-      <input  type="text" name="" id="">
-      <input  type="text" name="" id="">
+      <div>123</div>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, eligendi. Amet repudiandae reiciendis eligendi aliquam commodi, possimus magni consequatur sunt maiores, architecto hic distinctio vitae optio sapiente autem rem assumenda.</p>
   </body>
 </html>
