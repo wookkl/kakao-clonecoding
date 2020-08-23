@@ -10,25 +10,28 @@
         height: 1000vh;
         margin: 50px;
       }
-      div {
-        width: 300px;
-        height: 300px;
-        color: white;
-        background-color: blanchedalmond;
-        position: relative;
+      span {
+        background-color: yellowgreen;
+        margin: 0 10px;
+        padding: 5px;
+        border-radius: 10px;
       }
-      .green {
-        background-color: teal;
-        width: 100px;
-        height: 100px;
-        position: absolute;
-        right: 0px;
+      p span {
+        color: white;
+      }
+      p + span {
+        text-decoration-line: underline;
       }
     </style>
   </head>
   <body>
     <div>
-      <div class="green"></div>
+      <span>hello</span>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde corporis
+        eos voluptatibus nihil quod dignissimos dolorem.<span>inside</span>
+      </p>
+      <span>inside</span>
     </div>
   </body>
 </html>
