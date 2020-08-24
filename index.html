@@ -6,23 +6,39 @@
     <meta name="description" content="This is my first website." />
     <link href="styles.css" rel="stylesheet" />
     <style>
-      a {
-        color: wheat;
-        background-color: tomato;
-        text-decoration: none;
-        padding: 3px 5px;
-        border-radius: 5px;
-        font-size: 55px;
-        transition: all 5s ease-in;
+      body {
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
       }
-      a:hover {
-        border-radius: 15px;
-        background-color: wheat;
-        color: tomato;
+
+      div {
+        background-color: teal;
+        width: 200px;
+        height: 200px;
+      }
+      @media screen and (orientation: landscape) {
+        div {
+          background-color: tomato;
+        }
+        span {
+          display: none;
+        }
+      }
+      span {
+        font-size: 36px;
+      }
+      @media print {
+        body {
+          background-color: tomato;
+        }
       }
     </style>
   </head>
   <body>
-    <a href="#">Go home</a>
+    <div></div>
+    <span>Plealse flip your phone:(</span>
   </body>
 </html>
