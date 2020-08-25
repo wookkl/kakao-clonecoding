@@ -1,0 +1,42 @@
+.nav {
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__link {
+  position: relative;
+  color: #2e363e;
+}
+.nav__notification--message {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  position: absolute;
+  bottom: 18px;
+  left: 18px;
+  align-items: center;
+  color: white;
+}
+.nav__notification--ellipsis {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: tomato;
+  display: flex;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  align-items: center;
+}
