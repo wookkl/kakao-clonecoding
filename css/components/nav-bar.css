@@ -16,27 +16,12 @@
   color: #2e363e;
 }
 .nav__notification--message {
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  background-color: tomato;
-  display: flex;
-  justify-content: center;
-  font-weight: 600;
   position: absolute;
   bottom: 18px;
   left: 18px;
-  align-items: center;
-  color: white;
 }
 .nav__notification--ellipsis {
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background-color: tomato;
-  display: flex;
   position: absolute;
   bottom: 30px;
   left: 30px;
-  align-items: center;
 }
