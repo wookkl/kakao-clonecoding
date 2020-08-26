@@ -9,6 +9,11 @@
   align-items: center;
   color: white;
 }
+.badge-mid {
+  width: 18px;
+  height: 18px;
+  font-size: 10px;
+}
 .badge-small {
   width: 5px;
   height: 5px;
