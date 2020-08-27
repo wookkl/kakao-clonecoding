@@ -47,3 +47,25 @@
   color: inherit;
   font-size: 13px;
 }
+#splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+  animation: hideSplashScreen 1s ease-in-out forwards;
+  animation-delay: 1s;
+}
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
