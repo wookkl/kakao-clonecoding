@@ -2,14 +2,14 @@
 
 @import "reset.css";
 @import "variables.css";
-/* Components */
+/* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/find.css";
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
-/* Screens */
+/* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
@@ -17,6 +17,7 @@
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
+@import "components/no-pc.css";
 body {
   font-family: "Open Sans", sans-serif;
   color: #2e363e;
