@@ -31,3 +31,8 @@
   align-items: center;
   margin-bottom: 10px;
 }
+.more-suggestions__icon-image img {
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+}
