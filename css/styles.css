@@ -18,6 +18,7 @@
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
 @import "components/no-pc.css";
+@import "components/theme.css";
 body {
   font-family: "Open Sans", sans-serif;
   color: #2e363e;
