@@ -1,11 +1,13 @@
 .user-component {
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 .user-component,
 .user-component__column:first-child {
   display: flex;
   align-items: center;
 }
+
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.3);
   display: flex;
@@ -42,4 +44,18 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.birthday {
+  background-color: #f56971;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+}
+
+.birthday__font {
+  font-size: 16px;
+  font-weight: 400;
 }

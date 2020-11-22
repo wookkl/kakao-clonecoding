@@ -9,14 +9,14 @@
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span>No service</span>
+        <span>SKT</span>
         <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
         <span>18:45</span>
       </div>
       <div class="status-bar__column">
-        <span>110%</span>
+        <span>98%</span>
         <i class="fas fa-battery-full fa-lg"></i>
         <i class="fas fa-bolt"></i>
       </div>
@@ -25,6 +25,7 @@
       <h1 class="screen-header__title">Friends</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-user-plus"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
         <span><i class="fas fa-cog fa-lg"></i></span>
       </div>
@@ -34,6 +35,7 @@
       <i class="fas fa-chevron-right fa-xs"></i>
     </a>
     <main class="main-screen">
+      
       <div class="user-component">
         <div class="user-component__column">
           <img
@@ -42,12 +44,35 @@
           />
           <div class="user-component__text">
             <h4 class="user-component__title">Ggomi</h4>
-            <!--<h6 class="user-component__subtitle">this is whatever</h6>-->
+            <h6 class="user-component__subtitle">Hungry..</h6>
           </div>
         </div>
         <div class="user-component__column"></div>
       </div>
-
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Birthday friend</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <div class="user-component__avatar user-component__avatar--sm birthday">
+              <i class="fas fa-birthday-cake"></i>
+            </div>
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold birthday__font">
+                Check out your birthday friends!
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>2</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="friends-screen__channel">
         <div class="friends-screen__channel-header">
           <span>Channel</span>
@@ -72,6 +97,39 @@
             </div>
           </div>
         </div>
+      </div>  
+
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Friends</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              class="user-component__avatar user-component__avatar--sm"
+              src="img/Vienna.jpg"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Vienna</h4>
+              <h6 class="user-component__subtitle">I'm pretty</h6>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              class="user-component__avatar user-component__avatar--sm"
+              src="img/jisu.jpeg"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Jisu</h4>
+              <h6 class="user-component__subtitle">??!</h6>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
       </div>
     </main>
 
@@ -90,7 +148,7 @@
         </li>
         <li class="nav_btn">
           <a class="nav__link" href="find.html">
-            <i class="fas fa-search fa-2x"></i>
+            <i class="fas fa-hashtag fa-2x"></i>
           </a>
         </li>
         <li class="nav_btn">
@@ -103,10 +161,6 @@
     </nav>
     <div id="no-pc">
       <span>Your screen is super big : (</span>
-    </div>
-    <div class="theme">
-      <i class="fas fa-adjust fa-2x"></i>
-      <span>dark mode</span>
     </div>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
